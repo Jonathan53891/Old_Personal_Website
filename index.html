@@ -1,0 +1,245 @@
+<html>
+	<head>
+		<title> Jonathan Pilafas: Portfolio </title>	
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	
+	<body>
+		<!----------------Header Section--------------->
+		
+		<section id="header">
+		
+		<div class="container text-center"> 
+		
+		<div class="user-box"> 
+		
+			<img src='me.jpg'>
+			<h1> Jonathan Pilafas </h1>
+			<p> Computer Science Student </p>
+		
+		</div>
+		</div>
+		
+		<div class="scroll-btn">
+		
+		<div class="scroll-bar">
+		
+		<a href=""> <span> </span> </a>
+		
+		</div>
+		</div>
+		
+		</section>
+		<!-----------User-Info Section------------>
+		
+		<section id="user-info">
+		
+		<div class="nav-bar">
+		
+		<nav class="navbar navbar-expand-lg">
+			<a class="navbar-brand" href="#"> <img src="jonathan.png"> </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">HOME</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">ABOUT ME</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#resume">RESUME</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projects">PROJECTS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">CONTACT</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		</div>
+		
+		<!------------About----------->
+		
+		<div class="about container" id="about">
+		<div class="row">
+		<div class="col-md-6 text-center">
+			<img src="me.jpg" class="profile-img">
+		</div>
+		
+		<div class="col-md-6">
+		<h3> WHO AM I? </h3>
+		
+		<p> 
+			My name is Jonathan Pilafas, and I am a Computer Science student at 
+			<a href="https://en.wikipedia.org/wiki/Harper_College">William Rainey Harper College</a> in the Northwest Suburbs of Chicago, IL. 
+			<br><br>
+			My career goal is to enter the tech industry as a Software Engineer and eventually lead a tech company later on in my career. 
+		</p>
+		
+		</div>
+		</div>
+		</div>
+		
+		<!--------------Resume--------------->
+		<div class="resume" id="resume">
+		<div class="container">
+		<div class="row">
+		<div class="col-md-6">
+		
+		<h3> My Resume </h3>
+		
+		<ul class="resumelink">
+			<li>
+				<h4> Jonathan Pilafas - Resume: </h4>
+				<p>
+				 Here is a link to my resume.<br> - <a href="Jonathan Pilafas Resume.pdf">View Resume Here</a>
+				</p>
+			</li>
+		</ul>
+		
+		<!------------Projects--------------->
+		
+		<div class="projects" id="projects">
+		<div class="container">
+		<div class="row">
+		<div class="col-md-6">
+		<h3> My Projects </h3>
+		
+		<ul class="projectlist">
+			<li>
+				<h4> Final Project: </h4>
+				<p>This program allows you to keep track of a group of planets. It displays a menu that allows you to <br>
+				1) add a planet<br> 2) delete a planet<br> 3) search for a particular planet<br> 4) display one particular planet and description of that requested planet<br>
+				5) sort the whole list of planets in alphabetical order<br> 6) save a new planet to the file<br> 7) quit the program.
+				<br><br>
+				This program stores the planet’s name, diameter, and mass, and stores the list in a vector. 
+				Classes were added to provide functions to calculate the surface area of the planet, density of the planet, 
+				and acceleration due to gravity at the planet’s surface (g). <br> - <a href="http://cpp.sh/2uaae">View Final Project Code and Hosted Project Here</a>
+				</p>
+			</li>
+			<li>
+				<h4> Geometric Shapes: </h4>
+				<p> This program displays a menu of geometric shapes (cube, sphere, prism, cylinder, cone). 
+				The program allows the user to choose a shape. 
+				It also prompts the user to enter the dimensions of the shape. 
+				The program calculates the shape’s area and volume based on the values the user inputs, 
+				and it allows the program to immediately re-start the program and/or to quit the program. 
+				<br><br>
+				Every geometric shape presented is represented by a class. 
+				The class stores the dimensions as private members. 
+				The program also consists of get and set functions, a volume function, surface area function, and a constructor. 
+				This program also checks for all possible errors the user could potentially input.
+				
+				<br> - <a href="http://cpp.sh/75hp7">View Geometric Shapes Code and Hosted Project Here</a>
+				
+				</p>
+			</li>
+			<li>
+				<h4> Letter Frequency: </h4>
+				<p>This program allows the user to input any message that the user would like to input.
+				Once the user is finished creating the message he or she would like to input, the program finished with a "^D" command.
+				The program then counts the amount of times each letter in the alphabet was used in the message that the user inputted.
+				<br>
+				- <a href="http://cpp.sh/5cov">View Letter Frequency Code and Hosted Project Here</a>
+				</p>
+			</li>
+			<li>
+				<h4> Random Number Generator: </h4>
+				<p>This program is a program that generates 1000 random numbers between the values 1 and 100 inclusive. 
+				The program outputs how many times the randomly generated number falls in the ranges of 1 - 25, 26 - 50, 51 - 75, and 76 - 100. 
+				<br>
+				- <a href="http://cpp.sh/3p3ks7">View Random Number Generator Code and Hosted Project Here</a>
+				</p>
+			</li>
+			<li>
+				<h4> Range Calculator: </h4>
+				<p>
+				This is a C++ program that allows you to find the range of an object using the 
+				projectile motion equation R = (v^2 / g) sin(2Θ) where R = distance in feet, v = velocity in feet per second, & Θ = cannon angle.
+				<br>
+				This consists of a switch statement that allows the user to choose whether they wish to enter the velocity in miles per hour or kilometers per hour. 
+				The results of either selection are provided in feet or meters, depending on which option the user selects.
+				<br>
+				- <a href="http://cpp.sh/3oybf">View Range Calculator Code and Hosted Project Here</a>
+				</p>
+			</li>
+			<li>
+				<h4> Planet Acceleration Comparison: </h4>
+				<p>
+				This program allows the user to input two different planets. The user will give a diameter and mass for their respective planets. 
+				The program then stores them in a private class, calls it out, and outputs the planets’ surface area, density, and gravity. 
+				The program also compares the two planets and states which planet has the greater gravity value.
+				<br>
+				- <a href="http://cpp.sh/6vet">View Planet Acceleration Comparison Code and Hosted Project Here</a>
+				</p>
+			</li>
+			<li>
+				<h4>Additional Projects: </h4>
+				<p>
+				Additional projects can be found on my Github account.
+				<br>
+				- <a href="https://github.com/Jonathan53891">View My Github Here</a>
+				</p>
+			</li>
+		</ul>
+		
+		<!--------------Contact--------------->
+		
+		<div class="contact" id="contact" style="color:white">
+		<div class="container text-center" style="color:white">
+		<h1 style="color:white">Contact Me</h1>
+		<p style="color:white"> 
+			If you are interested in working with me, please contact me! 
+			<br><br>
+			My information is listed below, and I will get back to any responses ASAP.
+		</p>
+		
+		<p style="color:white">
+		<br>
+		 Phone:-------------------------------Personal Email:-------------------------------School Email:
+		</p>
+		<p style="color:white">
+		+1 (847) 274-9312--------------------
+		
+		<!If><a href="mailto:jonathan.pilafas@yahoo.com? subject=Jonathan Pilafas: Contact" style="color:white">jonathan.pilafas@yahoo.com </a> <!.>
+		<! We will be happy to contact you to set up a time to meet. 
+		Thank you for your interest in me. >----------
+		
+		<!If><a href="mailto:j_pilafas@mail.harpercollege.edu? subject=Jonathan Pilafas: Contact" style="color:white">j_pilafas@mail.harpercollege.edu </a> <!.>
+		<! We will be happy to contact you to set up a time to meet. 
+		Thank you for your interest in me. >
+		</p>
+		
+		</div>
+		
+		</section>
+	
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
